@@ -38,4 +38,4 @@
 #define ENCODER_RESOLUTION 4
 
 // set the leader key timeout
-#define LEADER_TIMEOUT 300
+/* #define LEADER_TIMEOUT 300 */
