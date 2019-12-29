@@ -39,4 +39,6 @@ stdenv.mkDerivation {
 
   CFLAGS = lib.optional avr avr_incflags;
   ASFLAGS = lib.optional avr avr_incflags;
+  SSL_CERT_FILE = "/etc/ssl/certs/ca-bundle.crt";
+  GIT_SSL_CAINFO = "/etc/ssl/certs/ca-certificates.crt";
 }
